@@ -16,5 +16,17 @@ public class ReadingInput {
 
         double Average = (FirstNo + SecondNo) / 2;
         System.out.print("Your Average Is "+Average);
+        
+        kb.nextLine();
+
+        String Name;
+        String Surname;
+
+        System.out.print("Enter Your name: ");
+        Name = kb.nextLine();
+        System.out.print("Enter Your surname: ");
+        Surname = kb.nextLine();
+        System.out.print("Your Name is "+Name+" "+Surname);
+
     }
 }
