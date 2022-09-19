@@ -8,9 +8,9 @@ public class ReadingInput {
         int FirstNo;
         int SecondNo;
 
-        Scanner kb = new Scanner(System.in);        //use the Scanner to read input from the user 
-        System.out.print("Enter Your First Number ");
-        FirstNo = kb.nextInt();
+        Scanner kb = new Scanner(System.in);        //use the Scanner to read input from the user
+        System.out.print("Enter Your First Number "); //kb is an variable  
+        FirstNo = kb.nextInt();                      //next. is used to  read input from the input device till the line change.
         System.out.print("Enter Your Second Number ");
         SecondNo = kb.nextInt();
 
