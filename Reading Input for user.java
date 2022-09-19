@@ -8,7 +8,7 @@ public class ReadingInput {
         int FirstNo;
         int SecondNo;
 
-        Scanner kb = new Scanner(System.in);        #use the Scanner to read input from the user 
+        Scanner kb = new Scanner(System.in);        //use the Scanner to read input from the user 
         System.out.print("Enter Your First Number ");
         FirstNo = kb.nextInt();
         System.out.print("Enter Your Second Number ");
